@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Microsoft</title>
     <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./responsive.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -14,289 +15,347 @@
     />
   </head>
   <body>
-    <nav class="nav-container">
-      <menu class="menu-left">
-        <img src="./images/microsoft-transparent-logo-free-png.webp" alt="" />
-        <ul>
-          <li><a href="">Microsoft365</a></li>
-          <li><a href="">Teams</a></li>
-          <li><a href="">Windows</a></li>
-          <li><a href="">Surface</a></li>
-          <li><a href="">Xbox</a></li>
-          <li><a href="">Sonderangebote</a></li>
-          <li><a href="">Kleine Unternehmen</a></li>
-          <li><a href="">Support</a></li>
-        </ul>
-      </menu>
-      <menu class="menu-right">
-        <a href="#">Alles von Microsoft</a>
-        <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
-        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
-      </menu>
-    </nav>
+    <div class="container">
+      <header>
+        <nav class="nav-container">
+          <menu class="menu-left">
+            <img
+              src="./images/microsoft-transparent-logo-free-png.webp"
+              alt=""
+            />
+            <ul>
+              <li><a href="">Microsoft365</a></li>
+              <li><a href="">Teams</a></li>
+              <li><a href="">Windows</a></li>
+              <li><a href="">Surface</a></li>
+            </ul>
+          </menu>
+          <menu class="menu-right">
+            <a href="#">Alles von Microsoft</a>
+            <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+          </menu>
+        </nav>
+      </header>
+      <main>
+        <div class="bg">
+          <div class="bg-content">
+            <h2>Surface Pro 9</h2>
+            <p>
+              Sparen Sie jetzt 15 % beim Kauf des leistungsstarken Surface Pro 9
+              mit Type Cover in der Farbe Ihrer Wahl. Der günstigste Preis der
+              letzten 30 Tage lag bei 1.699 €.
+            </p>
+            <button type="submit" class="">Jetzt Kaufen</button>
+          </div>
+        </div>
 
-    <div class="bg">
-      <div class="bg-content">
-        <h2>Surface Pro 9</h2>
+        <section class="logo-container">
+          <div class="logo-section">
+            <i class="fa-brands fa-microsoft"></i>
+            <a href="#">Wählen Sie Ihr microsoft 365</a>
+          </div>
+
+          <div class="logo-section">
+            <i class="fa-solid fa-laptop"></i>
+            <a href="">Surface-Geräte kaufen</a>
+          </div>
+
+          <div class="logo-section">
+            <i class="fa-brands fa-xbox"></i>
+            <a href="">Xbox-spiel und konsolen kaufen</a>
+          </div>
+
+          <div class="logo-section">
+            <i class="fa-brands fa-windows"></i>
+            <a href="">Windows kaufen</a>
+          </div>
+          <div class="logo-section">
+            <i class="fa-regular fa-keyboard"></i>
+            <a href="">Zubehör kaufen</a>
+          </div>
+          <div class="logo-section">
+            <i class="fa-solid fa-briefcase"></i>
+            <a href="">fur Unternehmen</a>
+          </div>
+        </section>
+
+        <section class="cards">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./images/Content-Card-Surface-Laptop-5-M1-Platinum-01-1.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="card-info">
+              <h2>Nur im microsoft Store</h2>
+              <p>
+                Sicher dir den Surface Laptop 5 + Microsoft 365 mit 292 €
+                Rabatt. Der günstigste Preis der letzten 30 Tage lag bei 1.729
+                €.
+              </p>
+              <div class="card-link">
+                <a href="">Jetzt kaufen</a>
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/Surface-Laptop-Studio-01-CP.jpeg" alt="" />
+            </div>
+
+            <div class="card-info">
+              <h2>Surface Laptop Studio</h2>
+              <p>
+                Lassen Sie Ihrer Kreativität mit dem leistungsstärksten Surface
+                Laptop freien Lauf. Jetzt erhältlich mit Windows 11.
+              </p>
+              <div class="card-link">
+                <a href="">Jetzt kaufen</a>
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img src="./images/gldn-XSX-CP-Xbox-Series-X.jpeg" alt="" />
+            </div>
+
+            <div class="card-info">
+              <h2>Power your dreams</h2>
+              <p>
+                Die neue Xbox Series S in Carbon Black – jetzt mit einer SSD mit
+                1 TB. Leistung und Geschwindigkeit der nächsten Generation.
+              </p>
+              <div class="card-link">
+                <a href="">Jetzt kaufen</a>
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./images/Content-Card-Xbox-Series-S-1TB-Black-Merch-01.avif"
+                alt=""
+              />
+            </div>
+
+            <div class="card-info">
+              <h2>Jetzt vorbestellen</h2>
+              <p>Die schnellste und leistungsfähigste Xbox aller Zeiten.</p>
+              <div class="card-link">
+                <a href="">Xbox Series X kaufen</a>
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="bg-animation">
+          <div class="bg-animation-info">
+            <h2>Xbox Game Pass Ultimate</h2>
+            <p>
+              Xbox Live Gold und Hunderte hochwertige Konsolen- und PC-Spiele.
+              Spiele mit Freund*innen und entdecke dein nächstes Lieblingsspiel.
+            </p>
+
+            <a href="">Jetzt beitragen</a>
+          </div>
+        </div>
+        <section class="cards">
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./images/Content-Card-Surface-Pro-9-for-Business-Angled-1.jpeg"
+                alt=""
+              />
+            </div>
+
+            <div class="card-info">
+              <h2>Surface Pro 9 for Business</h2>
+              <p>
+                Flexibel und den ganzen Tag einsatzbereit – mit der Mobilität
+                eines Tablets und der Leistung eines Laptops.
+              </p>
+              <div class="card-link">
+                <a href="">Jetzt kaufen</a>
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./images/gldn-CP-Microsoft-Teams-Commercial.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="card-info">
+              <h2>Holen Sie sich Microsoft Teams kostenlos</h2>
+              <p>
+                Onlinebesprechungen, Chat und gemeinsam genutzter Cloud-Speicher
+                – alles an einem Ort.
+              </p>
+              <div class="card-link">
+                <a href="">kostenlos registrieren</a>
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./images/Content-Card-Windows-11-Business (1).jpeg"
+                alt=""
+              />
+            </div>
+
+            <div class="card-info">
+              <h2>Surface Pro 9 for Business</h2>
+              <p>
+                Flexibel und den ganzen Tag einsatzbereit – mit der Mobilität
+                eines Tablets und der Leistung eines Laptops.
+              </p>
+              <div class="card-link">
+                <a href="">Jetzt kaufen</a>
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-image">
+              <img
+                src="./images/Content-Card-Microsoft-365-For-Business-Woman-Teams-Call.webp"
+                alt=""
+              />
+            </div>
+
+            <div class="card-info">
+              <h2>Surface Pro 9 for Business</h2>
+              <p>
+                Flexibel und den ganzen Tag einsatzbereit – mit der Mobilität
+                eines Tablets und der Leistung eines Laptops.
+              </p>
+              <div class="card-link">
+                <a href="">Jetzt kaufen</a>
+                <i class="fa-solid fa-greater-than"></i>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="bg-animation2">
+          <div class="bg-animation-info">
+            <h2>Microsoft virtual training days</h2>
+            <p>Praxisnahes Expertenwissen aus erster Hand.</p>
+
+            <a href="">Jetzt anmelden</a>
+          </div>
+        </div>
+      </main>
+
+      <footer class="main-footer">
+        <div class="icons-footer">
+          <div class="icons-left">
+            <h4>Microsoft folgen</h4>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+            <i class="fa-brands fa-youtube"></i>
+            <i class="fa-brands fa-instagram"></i>
+          </div>
+
+          <div class="card-link2">
+            <i class="fa-solid fa-arrow-up"></i>
+            <a href="#">Nach oben</a>
+          </div>
+        </div>
+
+        <nav class="footer">
+          <ul class="footer-list">
+            <h3>Neuigkeiten</h3>
+
+            <li><a href="#">Surface Pro 9</a></li>
+
+            <li><a href="#">Surface Laptop 5</a></li>
+
+            <li><a href="#">Surface Studio 2+</a></li>
+
+            <li><a href="#">Surface Laptop Go 2</a></li>
+
+            <li><a href="#">Surface Laptop Studio</a></li>
+
+            <li><a href="#">Surface Go 3</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <h3>Microsoft Store</h3>
+
+            <li><a href="#">Kontoprofil</a></li>
+
+            <li><a href="#">Download Center</a></li>
+
+            <li><a href="#">Microsoft Store-Support</a></li>
+
+            <li><a href="#">Rückgaben</a></li>
+
+            <li><a href="#">Bestellnachverfolgung</a></li>
+
+            <li><a href="#">Abfallverwertung</a></li>
+          </ul>
+
+          <ul class="footer-list">
+            <h3>Bildungswesen</h3>
+
+            <li><a href="#">Microsoft Bildung</a></li>
+
+            <li><a href="#">Geräte für den Bildungsbereich</a></li>
+
+            <li><a href="#">Microsoft Teams for Education</a></li>
+
+            <li><a href="#">Microsoft 365 Education</a></li>
+
+            <li><a href="#">Office Education</a></li>
+
+            <li>
+              <a href="#">Ausbildung und Weiterbildung von Lehrpersonal</a>
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <h3>Unternehmen</h3>
+
+            <li><a href="#">Microsoft Cloud</a></li>
+
+            <li><a href="#">DMicrosoft Cloud</a></li>
+
+            <li><a href="#">Microsoft Store-Support</a></li>
+
+            <li><a href="#">Azure</a></li>
+
+            <li><a href="#">Dynamics 365</a></li>
+
+            <li><a href="#">Microsoft 365</a></li>
+          </ul>
+        </nav>
+      </footer>
+      <div class="end">
+        <i class="fa-solid fa-earth-asia"></i>
+        <p>Deutschland(Deutschland)</p>
         <p>
-          Sparen Sie jetzt 15 % beim Kauf des leistungsstarken Surface Pro 9 mit
-          Type Cover in der Farbe Ihrer Wahl. Der günstigste Preis der letzten
-          30 Tage lag bei 1.699 €.
+          An Microsoft wenden Abo kündigen Impressum Datenschutz Cookies
+          verwalten Nutzungsbedingungen Markenzeichen Informationen zu unserer
+          Werbung EU Compliance DoCs © Microsoft 2023
         </p>
-        <button type="submit" class="">Jetzt Kaufen</button>
       </div>
-    </div>
-
-    <section class="logo-container">
-      <div class="logo-section">
-        <i class="fa-brands fa-microsoft"></i>
-        <a href="#">Wählen Sie Ihr microsoft 365</a>
-      </div>
-
-      <div class="logo-section">
-        <i class="fa-solid fa-laptop"></i>
-        <a href="">Surface-Geräte kaufen</a>
-      </div>
-
-      <div class="logo-section">
-        <i class="fa-brands fa-xbox"></i>
-        <a href="">Xbox-spiel und konsolen kaufen</a>
-      </div>
-
-      <div class="logo-section">
-        <i class="fa-brands fa-windows"></i>
-        <a href="">Windows 1kaufen</a>
-      </div>
-      <div class="logo-section">
-        <i class="fa-regular fa-keyboard"></i>
-        <a href="">Zubehör kaufen</a>
-      </div>
-      <div class="logo-section">
-        <i class="fa-solid fa-briefcase"></i>
-        <a href="">fur Unternehmen</a>
-      </div>
-    </section>
-
-    <section class="cards">
-      <div class="card">
-        <div class="card-image">
-          <img
-            src="./images/Content-Card-Surface-Laptop-5-M1-Platinum-01-1.webp"
-            alt=""
-          />
-        </div>
-
-        <div class="card-info">
-          <h2>Nur im microsoft Store</h2>
-          <p>
-            Sicher dir den Surface Laptop 5 + Microsoft 365 mit 292 € Rabatt.
-            Der günstigste Preis der letzten 30 Tage lag bei 1.729 €.
-          </p>
-          <div class="card-link">
-            <a href="">Jetzt kaufen</a>
-            <i class="fa-solid fa-greater-than"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img src="./images/Surface-Laptop-Studio-01-CP.jpeg" alt="" />
-        </div>
-
-        <div class="card-info">
-          <h2>Surface Laptop Studio</h2>
-          <p>
-            Lassen Sie Ihrer Kreativität mit dem leistungsstärksten Surface
-            Laptop freien Lauf. Jetzt erhältlich mit Windows 11.
-          </p>
-          <div class="card-link">
-            <a href="">Jetzt kaufen</a>
-            <i class="fa-solid fa-greater-than"></i>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-image">
-          <img src="./images/gldn-XSX-CP-Xbox-Series-X.jpeg" alt="" />
-        </div>
-
-        <div class="card-info">
-          <h2>Power your dreams</h2>
-          <p>
-            Die neue Xbox Series S in Carbon Black – jetzt mit einer SSD mit 1
-            TB. Leistung und Geschwindigkeit der nächsten Generation.
-          </p>
-          <div class="card-link">
-            <a href="">Jetzt kaufen</a>
-            <i class="fa-solid fa-greater-than"></i>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-image">
-          <img
-            src="./images/Content-Card-Xbox-Series-S-1TB-Black-Merch-01.avif"
-            alt=""
-          />
-        </div>
-
-        <div class="card-info">
-          <h2>Jetzt vorbestellen</h2>
-          <p>Die schnellste und leistungsfähigste Xbox aller Zeiten.</p>
-          <div class="card-link">
-            <a href="">Xbox Series X kaufen</a>
-            <i class="fa-solid fa-greater-than"></i>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <div class="bg-animation">
-      <div class="bg-animation-info">
-        <h2>Xbox Game Pass Ultimate</h2>
-        <p>
-          Xbox Live Gold und Hunderte hochwertige Konsolen- und PC-Spiele.
-          Spiele mit Freund*innen und entdecke dein nächstes Lieblingsspiel.
-        </p>
-
-        <a href="">Jetzt beitragen</a>
-      </div>
-    </div>
-    <section class="cards">
-      <div class="card">
-        <div class="card-image">
-          <img
-            src="./images/Content-Card-Surface-Pro-9-for-Business-Angled-1.jpeg"
-            alt=""
-          />
-        </div>
-
-        <div class="card-info">
-          <h2>Surface Pro 9 for Business</h2>
-          <p>
-            Flexibel und den ganzen Tag einsatzbereit – mit der Mobilität eines
-            Tablets und der Leistung eines Laptops.
-          </p>
-          <div class="card-link">
-            <a href="">Jetzt kaufen</a>
-            <i class="fa-solid fa-greater-than"></i>
-          </div>
-        </div>
-      </div>
-      <div class="card">
-        <div class="card-image">
-          <img
-            src="./images/gldn-CP-Microsoft-Teams-Commercial.webp"
-            alt=""
-          />
-        </div>
-
-        <div class="card-info">
-          <h2>Holen Sie sich Microsoft Teams kostenlos</h2>
-          <p>
-            Onlinebesprechungen, Chat und gemeinsam genutzter Cloud-Speicher – alles an einem Ort.
-          </p>
-          <div class="card-link">
-            <a href="">kostenlos registrieren</a>
-            <i class="fa-solid fa-greater-than"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img
-            src="./images/Content-Card-Windows-11-Business (1).jpeg"
-            alt=""
-          />
-        </div>
-
-        <div class="card-info">
-          <h2>Surface Pro 9 for Business</h2>
-          <p>
-            Flexibel und den ganzen Tag einsatzbereit – mit der Mobilität eines
-            Tablets und der Leistung eines Laptops.
-          </p>
-          <div class="card-link">
-            <a href="">Jetzt kaufen</a>
-            <i class="fa-solid fa-greater-than"></i>
-          </div>
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-image">
-          <img
-            src="./images/Content-Card-Microsoft-365-For-Business-Woman-Teams-Call.webp"
-            alt=""
-          />
-        </div>
-
-        <div class="card-info">
-          <h2>Surface Pro 9 for Business</h2>
-          <p>
-            Flexibel und den ganzen Tag einsatzbereit – mit der Mobilität eines
-            Tablets und der Leistung eines Laptops.
-          </p>
-          <div class="card-link">
-            <a href="">Jetzt kaufen</a>
-            <i class="fa-solid fa-greater-than"></i>
-          </div>
-        </div>
-      </div>
-      
-    </section>
-
-    <div class="bg-animation2">
-      <div class="bg-animation-info">
-        <h2>Microsoft virtual training days</h2>
-        <p>
-          Praxisnahes Expertenwissen aus erster Hand.
-        </p>
-
-        <a href="">Jetzt anmelden</a>
-      </div>
-    </div>
-
-
-    <div class="icons-footer">
-<h4>Microsoft folgen</h4>
-<i class="fa-brands fa-facebook-f"></i>
-<i class="fa-brands fa-twitter"></i>
-<i class="fa-brands fa-linkedin-in"></i>
-<i class="fa-brands fa-youtube"></i>
-<i class="fa-brands fa-instagram"></i>
-
-
-<div class="card-link2">
-  <a href="">Nach uben</a>
-  <i class="fa-solid fa-arrow-up"></i>
-
-</div>
-
-
-    </div>
-
-
-    <div class="footer">
-      <div class="footer-item">Neuigkeiten</div>
-      <div class="footer-item">Microsoft Store
-      </div>
-      <div class="footer-item">Bildungswesen</div>
-      <div class="footer-item">Unternehmen</div>
-      <div class="footer-item">Surface Pro 9</div>
-      <div class="footer-item">Kontoprofil</div>
-      <div class="footer-item">Microsoft Bildung</div>
-      <div class="footer-item">Microsoft Security</div>
-      <div class="footer-item">Surface Studio 2+</div>
-      <div class="footer-item">Microsoft Store-Support</div>
-      <div class="footer-item">Microsoft Teams for Education</div>
-      <div class="footer-item">Azure</div>
-      <div class="footer-item">Surface Laptop Go 2</div>
-      <div class="footer-item">Rückgaben</div>
-      <div class="footer-item">Microsoft 365 Education</div>
-      <div class="footer-item">Dynamics 365</div>
     </div>
   </body>
 </html>
