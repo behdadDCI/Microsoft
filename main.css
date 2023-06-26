@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+body {
+  text-align: center;
+}
+
+.container {
+  padding: 0 5vw 0 5vw;
+}
+
 .nav-container {
   height: 3rem;
   display: flex;
@@ -11,11 +19,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 0 1.5rem;
+  overflow: hidden;
 }
 
 .menu-left img {
   height: 4rem;
-  /* aspect-ratio: 1/1; */
 }
 .menu-left ul {
   display: flex;
@@ -44,9 +52,10 @@
 
 .bg {
   background: url(./images/bg.avif) center center/cover;
-  height: 70vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
+  align-items: start;
   padding: 7rem;
 }
 
@@ -57,7 +66,7 @@
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content: center;
+  justify-content: fle;
   padding: 0 1.5rem;
   gap: 2rem;
 }
@@ -78,16 +87,25 @@ button {
   justify-content: space-between;
   padding: 5rem;
   font-size: 1.5rem;
-  flex-wrap: wrap;
+
+  font-size: 1rem;
+}
+.logo-section a {
+  color: #0067b8;
+}
+.logo-section i {
+  color: black;
+  font-size: 2rem;
 }
 
 .logo-section {
   justify-content: center;
   display: flex;
   flex-direction: column;
+
   gap: 10px;
   align-items: center;
-
+  color: #0067b8;
 }
 
 .cards {
@@ -96,7 +114,6 @@ button {
   gap: 20px;
   justify-content: center;
 }
-
 .card {
   display: flex;
   flex-direction: column;
@@ -119,16 +136,19 @@ button {
 .card-info p {
   font-size: 20px;
 }
+
 .card-link {
   display: flex;
   gap: 10px;
   align-items: center;
 }
+
 .card-link a {
   font-size: 20px !important;
   all: unset;
   color: rgb(67, 67, 196);
   transition: all 0.1s ease;
+  cursor: pointer;
 }
 .card-link i {
   font-size: 15px;
@@ -140,7 +160,8 @@ button {
 }
 
 .bg-animation {
-  background: url(./images/gldn-XGP-Highlight-Ultimate-1PP-Evergreen-Keyart-FY22_VP5-1596x600\ \(2\).jpeg)center center/cover;
+  background: url(./images/adel.jpeg) center center/cover;
+
   height: 60vh;
   display: flex;
   margin: 5vh 10vw;
@@ -165,18 +186,27 @@ button {
 }
 
 .bg-animation2 {
-  background: url(./images/Highlight-DE-DE-MIcrosoft-Virtual-Training-Days_VP5-1596x600.avif)center center/cover;
+  background: url(./images/Highlight-DE-DE-MIcrosoft-Virtual-Training-Days_VP5-1596x600.avif)
+    center center/cover;
   height: 60vh;
   display: flex;
   margin: 5vh 10vw;
   padding: 5rem;
 }
 
-.icons-footer{
+.icons-footer {
   display: flex;
-  gap: 10px;
-}
 
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+.icons-left {
+  display: flex;
+  gap: 1rem;
+  font-size: 1.3rem;
+  padding: 10px;
+}
 
 .footer {
   display: grid;
@@ -184,8 +214,7 @@ button {
   grid-template-rows: repeat(4, 1fr);
   gap: 10px;
   padding: 20px;
-  background-color: #ffffff
-  /* text-align: center; */
+  background-color: #ffffff;
 }
 
 .footer-item {
@@ -193,22 +222,64 @@ button {
   padding: 10px;
 }
 
-.card-link {
+.card-link2 {
   display: flex;
   gap: 10px;
   align-items: center;
+  border: 2px solid;
+  background-color: gray;
+  color: white;
+  cursor: pointer;
 }
-.card-link2 a {
-  font-size: 20px !important;
-  all: unset;
- 
-  transition: all 0.1s ease;
-}
+
 .card-link2 i {
   font-size: 15px;
- 
+}
+.card-link2 i:hover {
+  color: #000;
 }
 .card-link2 a:hover {
   text-decoration: underline;
-  margin-right: 15px;
+  transform: translateX();
+  background-color: gray;
+  color: #000;
+}
+.footer {
+  background-color: #f0ebeb;
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.footer-list {
+  line-height: 2rem;
+  list-style: none;
+  max-width: fit-content;
+}
+
+.footer-list ul {
+  list-style: none;
+  display: flex;
+}
+
+.footer-list a {
+  line-height: 1rem;
+  text-decoration: none;
+  color: #000;
+  font-family: Arial;
+  font-size: 14px;
+}
+
+.end {
+  display: flex;
+  gap: 15px;
+  padding: 2px;
+  margin: 20px;
+}
+
+.main-footer {
+  display: flex;
+  flex-direction: column;
+}
 
